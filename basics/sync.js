@@ -1,6 +1,6 @@
-// console.log("first")
-// setTimeout(()=>{console.log("second")}, 10000)
-// console.log("third")
+console.log("first")
+setTimeout(()=>{console.log("second")}, 10000)
+console.log("third")
 
 // function getApiValue(){
 //     const response = fetch('https://automationexercise.com/api/productsList').then(data=> {

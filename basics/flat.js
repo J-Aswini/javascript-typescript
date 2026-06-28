@@ -8,7 +8,7 @@ console.log(arr1.flat());
 // Example 2: Two nested arrays
 const arr2 = [[1, 2], [3, 4]];
 
-console.log(arr2.flat());
+console.log(arr2.flat(1));
 // Output: [1, 2, 3, 4]
 
 
@@ -36,7 +36,7 @@ console.log(arr5.flat(3));
 // Example 6: flat(Infinity) removes all levels
 const arr6 = [1, [2, [3, [4, [5]]]]];
 
-console.log(arr6.flat(Infinity));
+console.log(arr6.flat(Infinity) + " passing infinity value inside flat method");
 // Output: [1, 2, 3, 4, 5]
 
 

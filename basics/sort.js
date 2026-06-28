@@ -1,4 +1,5 @@
 const nums = [10, 20, 1, 3];
+// console.log(nums.sort() + "without helper function")
 const sortOrder = nums.sort((a,b)=>a -b);
 console.log(sortOrder);
 
